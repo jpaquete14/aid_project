@@ -37,7 +37,7 @@
         <Level name="Month" visible="true" column="MonthName" ordinalColumn="MonthID" type="String" uniqueMembers="false" levelType="TimeMonths">
           <Annotations>
             <Annotation name="AnalyzerDateFormat">
-              <![CDATA[[yyyy].[MMM]]]>
+              [yyyy].[MMM]
             </Annotation>
           </Annotations>
         </Level>
