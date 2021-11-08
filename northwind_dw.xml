@@ -35,6 +35,11 @@
         <Level name="Day" visible="true" column="DayID" type="Integer" uniqueMembers="false" levelType="TimeDays">
         </Level>
         <Level name="Month" visible="true" column="MonthName" ordinalColumn="MonthID" type="String" uniqueMembers="false" levelType="TimeMonths">
+          <Annotations>
+            <Annotation name="AnalyzerDateFormat">
+              <![CDATA[[yyyy].[MMM]]]>
+            </Annotation>
+          </Annotations>
         </Level>
       </Hierarchy>
     </Dimension>
