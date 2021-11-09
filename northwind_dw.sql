@@ -56,7 +56,7 @@ CREATE TABLE fact_order (
     UnitPrice DECIMAL(10,4),
     Quantity SMALLINT(2),
     Discount REAL,
-    Sales INTEGER,
+    Sales DOUBLE,
     PRIMARY KEY (OrderID),
     FOREIGN KEY (CustomerID) REFERENCES dim_customer (CustomerID),
     FOREIGN KEY (ProductID) REFERENCES dim_product (ProductID),
