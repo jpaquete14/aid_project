@@ -55,11 +55,11 @@
       <Hierarchy name="Supplier Hierarchy" visible="true" hasAll="true" allMemberName="All Suplliers" primaryKey="SupplierID">
         <Table name="dim_supplier">
         </Table>
-        <Level name="Company Name" visible="true" column="CompanyName" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
-        </Level>
-        <Level name="City" visible="true" column="City" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
-        </Level>
         <Level name="Country" visible="true" column="Country" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="City" visible="true" column="City" type="String" uniqueMembers="false" levelType="Regular">
+        </Level>
+        <Level name="Company Name" visible="true" column="CompanyName" type="String" uniqueMembers="false" levelType="Regular">
         </Level>
       </Hierarchy>
     </Dimension>
