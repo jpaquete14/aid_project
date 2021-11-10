@@ -18,11 +18,11 @@
       <Hierarchy name="Product Hierarchy" visible="true" hasAll="true" allMemberName="All Products" primaryKey="ProductID">
         <Table name="dim_product">
         </Table>
-        <Level name="Product Identifier" visible="true" column="ProductIdentifier" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
-        </Level>
         <Level name="Category Name" visible="true" column="CategoryName" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
         </Level>
-        <Level name="Product Name" visible="true" column="ProductName" ordinalColumn="ProductName" type="String" uniqueMembers="false" levelType="Regular">
+        <Level name="Product Name" visible="true" column="ProductName" ordinalColumn="ProductName" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Product Identifier" visible="true" column="ProductIdentifier" type="Integer" uniqueMembers="false" levelType="Regular">
         </Level>
       </Hierarchy>
     </Dimension>
@@ -39,7 +39,7 @@
             </Annotation>
           </Annotations>
         </Level>
-        <Level name="Day" visible="true" column="DayID" type="Integer" uniqueMembers="false" levelType="TimeDays">
+        <Level name="Day" visible="true" column="DayID" type="Integer" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
         </Level>
       </Hierarchy>
     </Dimension>
