@@ -1,7 +1,6 @@
 DROP DATABASE IF EXISTS northwind_dw;
 
 CREATE DATABASE northwind_dw;
-
 USE northwind_dw;
 
 CREATE TABLE dim_customer (
